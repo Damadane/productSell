@@ -1,0 +1,30 @@
+{
+  "name": "agricultural-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "/src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,vue} --fix",
+    "lint:style": "stylelint src/**/*.{css,scss,vue} --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.18",
+    "element-plus": "^2.6.4",
+    "@element-plus/icons-vue": "^2.3.2",
+    "vue-router": "^4.3.0",
+    "@supabase/supabase-js": "^2.43.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
